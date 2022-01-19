@@ -1,4 +1,6 @@
 import { useId } from 'react';
+import { IdOne } from './IdOne';
+import { IdTwo } from './IdTwo';
 import './app.pcss';
 
 export function App() {
@@ -8,6 +10,8 @@ export function App() {
 		<div>
 			<h1 className="color">id1: {id1}</h1>
 			<h1 className="color">id2: {id2}</h1>
+      <IdTwo />
+      <IdOne />
 		</div>
 	);
 }

@@ -23,6 +23,7 @@
     "incremental": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
+    "types": ["react/next", "react-dom/next"]
   },
   "exclude": ["node_modules", ".eslintrc.js", "dist"]
 }
